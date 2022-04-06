@@ -17,6 +17,8 @@
 
 #### 安装
 
+目前支持python3, ida pro 7.7
+
 将xor_plugin.py放到IDA的plugings目录下即可
 
 
@@ -29,3 +31,20 @@
 
 也可以使用Shift+D快捷键进行解码
 
+
+
+## C2平台
+
+### NOPEN
+
+
+
+### FuzzBunch
+
+
+
+## 分析文章
+
+1. cverc_20220314
+2. Equation_NOPEN
+3. 
