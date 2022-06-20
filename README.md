@@ -31,6 +31,14 @@
 
 也可以使用Shift+D快捷键进行解码
 
+### Xor Batch Deobfuscation
+
+使用flare_emu对 noserver中的混淆字符串进行解码，一次就将可以解码的字符串全部解析完毕。
+
+操作方法：在ida View中把光标放在解码函数开始，就可以在 Edit->Plugings->Xor Batch Deobfuscation
+
+就会将所有的混淆字符进行解码，打印输出的控制台，并在代码中添加注释，显示解码后的字符串。
+
 
 
 ## C2平台
@@ -47,4 +55,5 @@
 
 1. cverc_20220314
 2. Equation_NOPEN
-3. 
+3. Equation_FuzzBunch
+4. 
